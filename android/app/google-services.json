@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "361720641778",
+    "project_id": "app-relatorio-jw",
+    "storage_bucket": "app-relatorio-jw.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:361720641778:android:3e23f11c31acaee639786b",
+        "android_client_info": {
+          "package_name": "com.example.app_relatorio_jw"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "361720641778-82fhomlh12u3kgbb94lf8iqjd85usecr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1gOr4qD0mVAB5zIxPTYnkRv0xXf1tiVE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "361720641778-82fhomlh12u3kgbb94lf8iqjd85usecr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
