@@ -19,6 +19,7 @@ class SessionRepositoryImpl implements SessionRepository {
           email: congregation.email!, password: congregation.passworld!);
     } on FirebaseAuthException catch (e) {
       switch (e.code) {
+        
         case 'invalid-email':
           throw InvalidEmail();
         case 'user-not-found':

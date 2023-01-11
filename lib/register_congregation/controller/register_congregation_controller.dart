@@ -90,6 +90,7 @@ class RegisterCongregationController extends GetxController {
     try {
       await repository.authCongregation(congregation);
       loading.value = false;
+      clearFields();
     } on InvalidEmail {
       ScaffoldMessenger.of(context).showSnackBar(SnackBar(
         content: Text(
